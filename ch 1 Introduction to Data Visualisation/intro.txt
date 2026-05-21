@@ -19,3 +19,8 @@ Application of Data Visualization
 
 
 
+Python Libraries for Visualization:
+1.Matplotlib:Basic and powerful ploting
+2.Seaborn: Statistical plots build on Matplotlib
+3.Plotify: Intrective,web based Visualization 
+4.Pandas(plot): Quick plots from DataFrames
