@@ -1,2 +1,21 @@
 
 
+What is Data Visualization?
+
+1.Data Visualization is the scientific and technical process of representing data in graphical or visual formats—
+2.such as charts, graphs, maps, and dashboards
+3.to communicate information clearly, efficiently, and effectively.
+4.transform the raw data into visuals
+
+
+
+Application of Data Visualization
+1.Data science: Simplyfying data to explain in data science
+2.Business/Marketing: Identify sales, trends and customer behaviour in visual formats—
+3.Healthcare: Moniterising health metrices and disease spread in Healthcare
+4.Finance: Analyzing stock price and Financial performance
+5.Education: Tracking student performance over time in Education.
+6.Government/Policy: Presenting public data like census and population level
+
+
+
