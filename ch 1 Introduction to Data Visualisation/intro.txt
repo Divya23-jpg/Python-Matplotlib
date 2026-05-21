@@ -24,3 +24,12 @@ Python Libraries for Visualization:
 2.Seaborn: Statistical plots build on Matplotlib
 3.Plotify: Intrective,web based Visualization 
 4.Pandas(plot): Quick plots from DataFrames
+
+
+
+Advantages of Data Visualization:
+1.Saves Time: Understand Data quikly
+2.Easy communication: Explain data to anyone
+3.Spot Trends and Patterns: See Data's Movement
+4.Better Decision Making: Make informed choices
+5.Handles Big Data Well: Understand thousands of rows
