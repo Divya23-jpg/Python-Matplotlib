@@ -3,6 +3,7 @@ interface for creating plots and visualizations.
 It acts as a collection of functions that let you build and customize figures step by step, making plotting in Python straightforward and intuitive
 """
 
+# ! Line Grapg for Cakes Sales per Week Day 
 import matplotlib.pyplot as plt
 
 x=['Mon','Tue','Wed','Thu','Fri'] # X- Axis
