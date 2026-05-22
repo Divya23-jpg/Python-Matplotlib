@@ -1,0 +1,27 @@
+Key Terms You shuold know
+
+1.Data Point: single pair of value  (x,y)
+2.X-Axis: Horizontal line 
+3.Y-Axis: Vertical line 
+4.Figure: Entire Canvas or paper or window where multiple axes are present
+5.Axes: Graph Box which is present in Figure where we actual plot graphs 
+6.Plot: Actual line, graph, shape which we are plotting in an axes
+7.Marker: Symbol or point which we used to see each data points
+8.Line : Line makes connection betwwen  data points
+9.Line style: We can make line style like -,==,:,etc
+10.Color: Used to give colour to the bar, line etc
+11.Legend: Small box tells that which line or  which colour presents what?
+12.Label: To explain X-Axis and Y-Axis
+13.Title: Headline of Graph
+14.Grid: Boxes in the background of the Graph
+15.Function:  Block of code used to perform specific task repeteadly
+16.Method: Which takes function to perform any other task
+17.Parameters: information to give to function to control
+18.Keyword Argument: To pass the parameters with name=value
+19.Object-Oriented API: Advance 
+20 DPI: Dots per inch  control picture quality , resolution
+if DPI is higher then Clear Picture
+21 Backend: Packages Used to plot Graphs on the screen 
+    like 1.TKAgg Default
+         2.QTEagg
+         3.WebAgg for  web applications
