@@ -18,7 +18,7 @@ Key Terms You shuold know
 16.Method: Which takes function to perform any other task
 17.Parameters: information to give to function to control
 18.Keyword Argument: To pass the parameters with name=value
-19.Object-Oriented API: Advance 
+19.Object-Oriented API It is used when we are working with multiple visualization to check on which graph we r working
 20 DPI: Dots per inch  control picture quality , resolution
 if DPI is higher then Clear Picture
 21 Backend: Packages Used to plot Graphs on the screen 
