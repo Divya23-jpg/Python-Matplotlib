@@ -1,0 +1,71 @@
+Reasons To learn Pyplot functions:
+1. convert Number to Graphs 
+2. Data Comparison
+3. Pattern Recognising
+
+
+
+
+Functions:
+
+1.plt.grid(): Adds grid lines to the plot for better readability.
+2.plt.show():Displays the plot window with all drawn elements.
+
+Axis Limits
+3.plt.xlim():Sets or retrieves the limits of the x‑axis.
+4.plt.ylim():Sets or retrieves the limits of the y‑axis.
+
+Axis Ticks
+5.plt.xticks():Defines or customizes tick positions/labels on the x‑axis.
+6.plt.yticks():Defines or customizes tick positions/labels on the y‑axis.
+ 
+Legend
+7.plt.legend():Displays a legend for labeled plot elements.
+
+title
+8.plt.title(): Adds a title to the plot.
+
+Plotting
+9.plt.plot():Plots data points as lines and/or markers.
+
+Labels
+10.plt.xlabel():Sets the label for the x‑axis.
+11.plt.ylabel():Sets the label for the y‑axis.
+
+
+
+Figure & Subplots
+12.plt.figure() → Creates a new figure for plotting.
+13.plt.subplot() → Defines a subplot within a grid layout.
+14.plt.subplots() → Creates multiple subplots in one figure.
+
+
+
+
+Saving & Exporting
+15.plt.savefig() → Saves the current figure to a file.
+16.plt.close() → Closes the current figure window.
+
+
+Plot Types
+17.plt.scatter() → Creates a scatter plot of points.
+18.plt.bar() → Draws a vertical bar chart.
+19.plt.barh() → Draws a horizontal bar chart.
+20.plt.hist() → Plots a histogram of data distribution.
+21.plt.boxplot() → Displays a box‑and‑whisker plot.
+22.plt.pie() → Creates a pie chart.
+
+
+
+Color & Style
+23.plt.style.use() → Applies a predefined plotting style.
+24.plt.colormaps() → Lists available color maps.
+
+
+Text & Annotation
+25.plt.text() → Adds text at a specific location in the plot.
+26.plt.annotate() → Adds annotated text with arrows.
+
+Axis & Layout
+27.plt.axis() → Sets axis limits and aspect ratio.
+28.plt.tight_layout() → Adjusts spacing to fit subplots neatly.

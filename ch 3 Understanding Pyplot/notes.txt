@@ -35,3 +35,13 @@ Difference Between Pyplot and Object Oriented API
 
 Pyplot:
     Used for small project
+    It uses global state means implicitly
+    Less flexible for multiple plotting
+    Best for beginers
+
+Object Oriented API:
+    Used for Larger  project
+    It control by the developer
+    More flexible for multiple plotting
+    Best for Data Analyst
+
