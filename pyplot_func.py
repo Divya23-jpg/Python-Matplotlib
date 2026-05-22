@@ -17,4 +17,8 @@ plt.plot(months,sales,color='blue',linestyle='--', linewidth=2,marker='o',label=
 
 plt.xlabel('Number of Months')
 plt.ylabel('Number of Sales per month')
+
+# 4 plt.title() : used to show heading of the graph
+# ! plt.title('text')
+plt.title('Monthly Sales Data Report')
 plt.show()
