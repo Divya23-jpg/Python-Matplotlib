@@ -1,0 +1,23 @@
+History of Matplotlib
+At the time of 2000, There is a Library called MatLab for data Visualization
+But it have two problem:
+1.Developer have to learns Low level code brcause it works manual ploting points.
+2.They have to paid for Visualization because it is a paid library
+
+Creater and author of MATPLOTLIB
+JOHN D. Hunter was an Americal Neurobiologist and the original author of MATPLOTLIB
+MATPLOTLIB Library introduced in 2003
+
+
+MATPLOTLIB means:
+MAT means Matlab (oldest library)
+PLOT: Means ploting
+LIB: Library
+
+
+MATPLOTLIB Works with:
+1.Line graphical
+2.Bar graphs
+3.Pie charts
+4.Histogram
+5.Scatter plot

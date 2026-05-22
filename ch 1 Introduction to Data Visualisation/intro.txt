@@ -38,4 +38,5 @@ Advantages of Data Visualization:
 Important Que and points for interview:
 
 1. Human Brain process Images   60,000 faster then text
-2. 
+2. Visualization can lie if data is wrong
+3. 90% Big data are failed due to wrong or lack of vizualization
