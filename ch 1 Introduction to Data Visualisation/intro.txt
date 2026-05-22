@@ -33,3 +33,9 @@ Advantages of Data Visualization:
 3.Spot Trends and Patterns: See Data's Movement
 4.Better Decision Making: Make informed choices
 5.Handles Big Data Well: Understand thousands of rows
+
+
+Important Que and points for interview:
+
+1. Human Brain process Images   60,000 faster then text
+2. 
