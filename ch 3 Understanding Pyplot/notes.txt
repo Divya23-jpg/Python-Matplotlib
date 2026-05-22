@@ -25,3 +25,13 @@ if DPI is higher then Clear Picture
     like 1.TKAgg Default
          2.QTEagg
          3.WebAgg for  web applications
+
+
+
+
+
+
+Difference Between Pyplot and Object Oriented API
+
+Pyplot:
+    Used for small project
