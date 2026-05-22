@@ -12,6 +12,7 @@ plt.plot(x,y)
 plt.title("Bakery Sales This Week")
 plt.xlabel("Day of the Week")
 plt.ylabel("Number of Cake Sale")
+# ! Without plt.show()  We cannot see the graph
 plt.show()
 
 
