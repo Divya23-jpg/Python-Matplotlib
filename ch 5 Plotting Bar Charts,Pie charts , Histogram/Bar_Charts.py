@@ -12,3 +12,21 @@ Bars can be displayed vertically or horizontally.
 5.Summarize large datasets: Condense complex tables into simple visuals.
 
 """
+
+import matplotlib.pyplot as plt
+
+
+# ? For Vertical Bars
+#! plt.bar(a,height,color='name',lable='label name')
+# ? For Horizontal Bars
+# ! plt.barh(a,height,color='name',lable='label name')
+products=['A','B',"C",'D']
+sales=[1000,1500,800,1200]
+
+# plt.bar(products,sales,color='Orange',label='Sales 2025')
+plt.barh(products,sales,color='Orange',label='Sales 2025')
+plt.xlabel("Products List")
+plt.ylabel("Number of Sales")
+plt.title("Product Sales Comparision")
+plt.legend()
+plt.show()
