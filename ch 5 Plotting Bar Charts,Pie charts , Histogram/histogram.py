@@ -1,4 +1,6 @@
 """
+
+
 ? Definition:  
 A histogram is a type of chart that represents the distribution of numerical data.
 1.Data is grouped into intervals (bins).
@@ -10,6 +12,7 @@ A histogram is a type of chart that represents the distribution of numerical dat
 2.Detect patterns: Identify central tendency, spread, and shape of data.
 3.Spot outliers: Quickly see unusual values outside the main distribution.
 4.Support statistical analysis: Useful in probability, regression, and quality control.
+
 
 """
 
