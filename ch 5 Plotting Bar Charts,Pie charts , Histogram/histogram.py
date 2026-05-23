@@ -17,4 +17,4 @@ A histogram is a type of chart that represents the distribution of numerical dat
 """
 import matplotlib.pyplot as plt
 
-
+x=['Mon','Tue','Wed','Thu']
