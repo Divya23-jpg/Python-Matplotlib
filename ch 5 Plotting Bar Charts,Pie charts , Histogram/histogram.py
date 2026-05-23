@@ -11,5 +11,6 @@ A histogram is a type of chart that represents the distribution of numerical dat
 3.Spot outliers: Quickly see unusual values outside the main distribution.
 4.Support statistical analysis: Useful in probability, regression, and quality control.
 
-
 """
+
+
