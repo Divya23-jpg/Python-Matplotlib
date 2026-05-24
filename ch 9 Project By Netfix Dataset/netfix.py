@@ -19,4 +19,5 @@ plt.xlabel("Type")
 plt.ylabel("Count")
 plt.tight_layout()
 
-plt.savefig('')
+plt.savefig('movies_vs_tyshows.png')
+plt.show()
