@@ -5,12 +5,11 @@ import pandas as pd
 
 
 # ! Step 2 : Load the data
-
-
 df=pd.read_csv("netflix_dataset.csv")
 
 # ! Show all Col name
 # print(df.columns)
+
 
 df=df.dropna(subset=['type','release_year','rating','country','duration'])
 type_counts= df['type'].value_counts()
