@@ -18,7 +18,7 @@ A histogram is a type of chart that represents the distribution of numerical dat
 import matplotlib.pyplot as plt
 # bins : ranges or frequency dividedd python automatically when we give no of range
 # ! plt.hist(data,bins=[num of bins],color='color name',edgecolor='colour')
-
+# ? Height of bar=Number of range
 scores=[45,67,89,56,78,88,92,60,74,81,59,66,75,82,90,85,70,73,68,77]
 plt.hist(scores,bins=5,color='purple',edgecolor='black')
 plt.xlabel("Scores Range")
