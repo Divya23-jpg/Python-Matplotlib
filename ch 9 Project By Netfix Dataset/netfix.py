@@ -20,4 +20,6 @@ plt.title("Number of Movies VS TV shows on Netfix")
 plt.xlabel("Type")
 plt.ylabel("Count")
 plt.tight_layout()
+
+
 plt.savefig('')
