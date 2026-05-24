@@ -1,0 +1,10 @@
+
+Why To Save Charts:
+
+1.For documentation and reports (academic, project, presentations).
+2.To ensure reusability without regenerating plots.
+3.For sharing and collaboration with others.
+4.To maintain publication-quality visuals (high resolution, vector formats).
+5.For automation in workflows (dashboards, CI/CD, scheduled reports).
+6.To preserve analysis results for future reference.
+7.To embed charts in websites or applications
