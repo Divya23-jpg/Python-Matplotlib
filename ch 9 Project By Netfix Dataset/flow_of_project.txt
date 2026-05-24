@@ -21,3 +21,17 @@ questions                                                           chart Type  
 6.Top 10 companies with the highest no. of shows?                   Bar chart (Horizontal)      plt.barh()
 7.Compare multiple plots together(eg Movies VS TV shows by Year)?   Subplots                    plt.subplot() / plt.Subplots()
 8.Save Final Charts                                                 Saving Figures              plt.savefig()
+
+
+Library                             Purpose
+
+1.Pandas                            Data Loading,cleaning,exploration
+2.matplotlib.pyplot()               Ploting all type of graphs
+3.plt.plot()                        Line chart
+4.plt.bar(),plt.barh()              Bar graph
+5.plt.pie()                         pie graph
+6.plt.hist()                        Histogram (Distribution check)
+7.plt.scatter()                     Scatter plot
+8.plt.subplot()/plt.Subplots()      multiple Plots
+9.plt.tight_layout()                Fix Overlapping Labels
+10.plt.savefig()                    save Charts as image
