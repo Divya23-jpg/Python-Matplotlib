@@ -21,17 +21,22 @@ plt.title("Bar Chart")
 # plt.show()
 
 
-# ! 2nd Way
+# ! More Clean way
 # ? Syntax: fig,ax=plt.subplots(nrows,ncols,figsize=[width,height])
 
 fig,ax=plt.subplots(1,2,figsize=(10,5))
 x=[1,2,3,4]
 y=[10,20,15,25]
-ax[0].plot(x,y)
+ax[0].plot(x,y,color='blue')
 ax[0].set_title("Line Plot")
 
-ax[1].bar(x,y)
+ax[1].bar(x,y,color='yellow')
 ax[1].set_title("Bar Plot")
-
+#  Used to Adjust layout that not overlap to another chart
 plt.tight_layout()
+# Used to GIVE Titile for Both Graphs
+fig.suptitle("Comparison Of Line and Bar Graph")
 plt.show()
+
+
+# ! Customize Individual Subplots
