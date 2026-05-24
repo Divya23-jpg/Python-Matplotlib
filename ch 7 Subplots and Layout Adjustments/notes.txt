@@ -18,3 +18,15 @@ Function of subplots:
 2.plt.tight_layout():
     1.Automatic Adjustment
     2.Overlap Fix
+
+3.ax.text(), ax.annotate():
+    1.Text Addition
+    2.Annotation Insertion
+
+4.plt.subplot():
+    1.Grid Layout
+    2.Quick Creation
+
+5.Sharex=True,Sharey=True:
+    1.Shared X Axis
+    2.Shared Y Axis

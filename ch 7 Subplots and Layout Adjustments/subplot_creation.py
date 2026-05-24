@@ -30,6 +30,7 @@ y=[10,20,15,25]
 ax[0].plot(x,y,color='blue')
 ax[0].set_title("Line Plot")
 
+
 ax[1].bar(x,y,color='yellow')
 ax[1].set_title("Bar Plot")
 #  Used to Adjust layout that not overlap to another chart
