@@ -1,0 +1,8 @@
+STEP NAME                  What We will Do
+
+Load the data               Read the CSV file Using Pandas
+clean the data              Handle missing values,remove duplicates,fix columns if needed
+understand the data         Use head(),info(),descrice() to explore the dataset
+identify questions to ans   What do we want to know? [ex: Movies vs Tv shows content rating etc]
+Visualize the data (EDA)    Use Matplotlib to draw charts & ans these que visually
+Save the Plots              Use plt.savefig() for your reports
