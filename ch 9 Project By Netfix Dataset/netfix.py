@@ -21,5 +21,4 @@ plt.xlabel("Type")
 plt.ylabel("Count")
 plt.tight_layout()
 
-
 plt.savefig('')
