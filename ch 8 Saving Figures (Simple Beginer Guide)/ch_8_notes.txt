@@ -8,3 +8,23 @@ Why To Save Charts:
 5.For automation in workflows (dashboards, CI/CD, scheduled reports).
 6.To preserve analysis results for future reference.
 7.To embed charts in websites or applications
+
+
+Solution:
+
+savefig(): For save visualization.
+
+There are Functions in savefig():
+
+1.filenae:
+    Name and path
+
+2.Future Use:
+    analysis and presentations
+
+3.Sharing:
+    collaboration
+    publication
+
+4.formats:
+    PNG,PDF,SVG
