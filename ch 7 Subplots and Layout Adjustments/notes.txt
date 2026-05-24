@@ -9,4 +9,12 @@ Use  Of Subplots:
     3.Quickly Analyse data like Weekly sales , Ml model etc
 
 
+Function of subplots:
 
+1.plt.subplots():
+    1.Object Oriented
+    2.Preferred Method
+
+2.plt.tight_layout():
+    1.Automatic Adjustment
+    2.Overlap Fix
