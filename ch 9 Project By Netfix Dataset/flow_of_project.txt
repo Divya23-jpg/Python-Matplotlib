@@ -11,6 +11,13 @@ Save the Plots              Use plt.savefig() for your reports
 
 
 
-questions     chart Type    Matplotlib function
+questions                                                           chart Type              Matplotlib function
 
-1.How many Movies vs 
+1.How many Movies vs  Tv Shows?                                     Bar chart                   plt.bar()
+2.What is % of each content rating(PG,R,TV-MA)?                     Pie chart                   plt.pie()
+3.how has no. of releases changed over the years?                   Line chart                  plt.plot()
+4.What id Distribution of movie Durations?                          Histogram                   plt.hist()
+5.Relation Btw releases year and no. of shows?                      Scatterr Plot (Optional)    plt.scatter()
+6.Top 10 companies with the highest no. of shows?                   Bar chart (Horizontal)      plt.barh()
+7.Compare multiple plots together(eg Movies VS TV shows by Year)?   Subplots                    plt.subplot() / plt.Subplots()
+8.Save Final Charts                                                 Saving Figures              plt.savefig()
