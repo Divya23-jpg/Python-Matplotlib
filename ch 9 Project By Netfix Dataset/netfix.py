@@ -5,7 +5,8 @@ import pandas as pd
 
 
 # ! Step 2 : Load the data
-df=pd.read_csv("netflix_dataset.csv")
+df=pd.read_csv("netflix_titles.csv")
+# df=pd.read_csv("netflix_dataset.csv")
 
 # ! Show all Col name
 
@@ -13,7 +14,7 @@ df=pd.read_csv("netflix_dataset.csv")
 
 df=df.dropna(subset=['type','release_year','rating','country','duration'])
 type_counts= df['type'].value_counts()
-# print(type_counts)
+print(df[['type','release_year','rating','country','duration']].isnull().sum())
 plt.figure(figsize=(6,4))
 plt.bar(type_counts.index,type_counts.values,color=['skyblue','orange'])
 plt.title("Number of Movies VS TV shows on Netfix")
@@ -22,4 +23,21 @@ plt.ylabel("Count")
 plt.tight_layout()
 
 plt.savefig('movies_vs_tyshows.png')
+plt.show()
+
+
+# import matplotlib.pyplot as plt
+
+# # Only drop rows where 'type' is missing
+# df = df.dropna(subset=['type'])
+# type_counts = df['type'].value_counts()
+
+# plt.figure(figsize=(6,4))
+# plt.bar(type_counts.index, type_counts.values, color=['skyblue','orange'])
+# plt.title("Number of Movies vs TV Shows on Netflix")
+# plt.xlabel("Type")
+# plt.ylabel("Count")
+# plt.tight_layout()
+
+# plt.savefig('movies_vs_tvshows.png')
 # plt.show()
