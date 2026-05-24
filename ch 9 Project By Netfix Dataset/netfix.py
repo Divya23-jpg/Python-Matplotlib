@@ -8,10 +8,12 @@ import pandas as pd
 df=pd.read_csv("netflix_dataset.csv")
 
 # ! Show all Col name
+
 # print(df.columns)
 
 df=df.dropna(subset=['type','release_year','rating','country','duration'])
 type_counts= df['type'].value_counts()
+# print(type_counts)
 plt.figure(figsize=(6,4))
 plt.bar(type_counts.index,type_counts.values,color=['skyblue','orange'])
 plt.title("Number of Movies VS TV shows on Netfix")
@@ -20,4 +22,4 @@ plt.ylabel("Count")
 plt.tight_layout()
 
 plt.savefig('movies_vs_tyshows.png')
-plt.show()
+# plt.show()
