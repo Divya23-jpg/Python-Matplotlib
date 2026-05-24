@@ -1,0 +1,12 @@
+Subplots:
+    In Matplotlib, plt.subplots() is a function that creates a figure and a grid of axes (subplots) in one call.
+    It’s the most convenient way to generate multiple plots within the same figure.
+
+
+Use  Of Subplots:
+    1.To Comapre multiple charts side by side.
+    2.Reduce space by Comapre multiple charts in one window no need to make another window for different charts
+    3.Quickly Analyse data like Weekly sales , Ml model etc
+
+
+
