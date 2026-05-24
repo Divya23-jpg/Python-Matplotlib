@@ -50,14 +50,3 @@ plt.show()
 
 
 
-# movies_df = df[df['type'] == "Movie"].copy()
-# movies_df['duration_int'] = movies_df['duration'].str.replace('min', '').astype(int)
-
-# plt.figure(figsize=(8,6))
-# plt.hist(movies_df['duration_int'], bins=30, color='purple', edgecolor='black')
-# plt.title('Distribution Of Movie Duration')
-# plt.xlabel("Duration Minute")
-# plt.ylabel("Number of Movies")
-# plt.tight_layout()
-# plt.savefig('movies_duration_histo.png')
-# plt.show()
