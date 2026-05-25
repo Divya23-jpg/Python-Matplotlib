@@ -46,7 +46,50 @@ plt.xlabel("Duration Minute")
 plt.ylabel("Number of Movies")
 plt.tight_layout()
 plt.savefig('movies_duration_histo.png')
+# plt.show()
+
+
+# ! For showing Rekease year of the Movies 
+realease_counts=df['release_year'].value_counts().sort_index()
+plt.figure(figsize=(10,6))
+plt.scatter(realease_counts.index,realease_counts.values,color='red')
+plt.title('Release Year VS Number of Shows')
+plt.xlabel("Release Year")
+plt.ylabel("Number of Shows")
+plt.tight_layout()
+plt.savefig('release_year.png')
+# plt.show()
+
+
+# ! For Showing Top 10 Country and num of shows they give us
+
+country_counts=df['country'].value_counts().head(10)
+plt.figure(figsize=(8,6))
+plt.barh(country_counts.index,country_counts.values,color='teal')
+plt.title('Top 10 Countries By Number of shows')
+plt.xlabel("Number of Shows")
+plt.ylabel("Country")
+plt.tight_layout()
+plt.savefig('top_10_country.png')
+# plt.show()
+
+
+# ! Subplots for Movies VS Tv shows
+content_by_year=df.groupby(['release_year','type']).size().unstack().fillna(0)
+fig,ax=plt.subplots(1,2,figsize=(12,5))
+#  First Subplot: Movies
+ax[0].plot(content_by_year.index,content_by_year['Movie'],color='blue')
+ax[0].set_title("Movies Release Per Year")
+ax[0].set_xlabel('Year')
+ax[0].set_ylabel('Number of Movies ')
+
+#  Second  Subplot: TV Shows
+ax[0].plot(content_by_year.index,content_by_year['TV Show'],color='Orange')
+ax[0].set_title("TV Shows Release Per Year")
+ax[0].set_xlabel('Year')
+ax[0].set_ylabel('Number of Movies ')
+
+fig.suptitle("Comparison of Movies and TV Shows Over Year")
+plt.tight_layout()
+plt.savefig('movies_Tv_shows_comparison.png')
 plt.show()
-
-
-
